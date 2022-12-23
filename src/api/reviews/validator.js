@@ -16,7 +16,6 @@ const reviewSchema = {
       options: {
         min: 0,
         max: 5,
-        errorMessage: "rating can only be 0 - 5",
       },
       errorMessage:
         "Rating is a mandatory field and needs to be a number 0 - 5!",
