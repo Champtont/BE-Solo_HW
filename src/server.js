@@ -10,6 +10,7 @@ import {
   badRequestHandler,
   unauthorizedHandler,
 } from "./errorHandlers.js";
+import filesRouter from "./api/files/index.js";
 
 const server = express();
 
@@ -26,6 +27,7 @@ server.use(express.json()); // req.body "UNDEFINED" solved
 // ****************** ENDPOINTS *********************
 server.use("/products", productsRouter);
 server.use("/review", reviewsRouter);
+server.use("/files", filesRouter);
 
 // ****************** ERROR HANDLERS ****************
 server.use(badRequestHandler);

@@ -7,6 +7,9 @@
     "category": "smartphones",
     "createdAt": "2022-12-23T11:20:39.704Z",
     "id": "r91yh4mslc0f8tg9",
-    "updatedAt": "2022-12-23T11:25:53.955Z"
+    "updatedAt": "2022-12-23T15:27:45.654Z",
+    "productPhoto": {
+      "imageUrl": "http://localhost:3001/productPics/r91yh4mslc0f8tg9.jpg"
+    }
   }
 ]
